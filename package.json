@@ -1,8 +1,9 @@
 {
   "name": "create-bp-ui-component",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "bin": {
     "create-bp-ui-component": "./index.js"
   },
@@ -10,5 +11,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "log-update": "^6.1.0"
+  }
 }
